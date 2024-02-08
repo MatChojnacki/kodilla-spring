@@ -1,17 +1,15 @@
 package com.kodilla.spring.portfolio;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = BoardConfig.class)
+@SpringBootTest
 public class BoardTestSuite {
 
     @Test
